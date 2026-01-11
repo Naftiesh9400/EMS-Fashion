@@ -39,7 +39,7 @@ const MentorsSection = () => {
   const [selectedMentor, setSelectedMentor] = useState<typeof mentors[0] | null>(null);
 
   return (
-    <section className="py-24 relative overflow-hidden">
+    <section className="py-24 relative overflow-hidden" id="mentors">
       <div className="hero-glow top-0 right-0 opacity-20" />
       
       <div className="container mx-auto px-6 relative z-10">
